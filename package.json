@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i input.css -o dist.css --watch",
+    "build":"tailwindcss build input.css -o dist.css"
+  }
+}
